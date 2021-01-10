@@ -1,37 +1,3 @@
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Inter-Regular.woff2?v=3.15") format("woff2"),
-       local("Inter-Regular.woff?v=3.15") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Inter-Italic.woff2?v=3.15") format("woff2"),
-       local("Inter-Italic.woff?v=3.15") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: local("Inter-Black.woff2?v=3.15") format("woff2"),
-       local("Inter-Black.woff?v=3.15") format("woff");
-}
-@font-face {
-  font-family: 'Inter';
-  font-style:  italic;
-  font-weight: 900;
-  font-display: swap;
-  src: local("Inter-BlackItalic.woff2?v=3.15") format("woff2"),
-       local("Inter-BlackItalic.woff?v=3.15") format("woff");
-}
-
 .page {
   font-family: 'Inter', Arial, sans-serif;
   color: #FFFFFF;
