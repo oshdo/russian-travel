@@ -1,0 +1,14 @@
+.places-container__website {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-self: end;
+  padding-bottom: 48px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .places-container__website {
+    display: none;
+  }
+}

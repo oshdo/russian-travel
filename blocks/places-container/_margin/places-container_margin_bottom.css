@@ -1,0 +1,22 @@
+.places-container_margin_bottom {
+  margin-bottom: 8.1%;
+}
+
+@media screen and (max-width: 1024px) {
+  .places-container_margin_bottom {
+    margin-bottom: 8.6%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places-container_margin_bottom {
+    margin-bottom: 10.1%;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .places-container_margin_bottom {
+    margin-bottom: 10%;
+  }
+}

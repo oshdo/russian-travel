@@ -1,0 +1,23 @@
+.footer__navigation-item {
+  margin-right: 18px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 112%;
+}
+
+@media screen and (min-width: 426px) and (max-width: 767px) {
+  .footer__navigation-item {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer__navigation-item {
+    padding-bottom: 32px;
+    margin-right: 0;
+    font-size: 24px;
+    line-height: 100%;
+    box-sizing: content-box;
+  }
+}

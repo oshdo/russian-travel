@@ -1,0 +1,13 @@
+.footer__navigation-item_margin_right {
+  padding-bottom: 0;
+}
+
+
+@media screen and (max-width: 425px) {
+  .footer__navigation-item_margin_right {
+    margin-right: 0;
+    padding-bottom: 48px;
+  }
+}
+
+

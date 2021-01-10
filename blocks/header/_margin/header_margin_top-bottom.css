@@ -1,0 +1,29 @@
+.header_margin_top-bottom {
+  margin: 2.18% auto 4.4%;
+}
+
+@media screen and (max-width: 1024px) {
+  .header_margin_top-bottom {
+    margin-bottom: 4.68%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_margin_top-bottom {
+    margin-bottom: 6.25%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header_margin_top-bottom {
+    margin-top: 5%;
+    margin-bottom: 11.2%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header_margin_top-bottom {
+    margin-top: 5%;
+    margin-bottom: 15%;
+  }
+}

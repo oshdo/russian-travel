@@ -1,0 +1,33 @@
+.places-container__image {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  width: 100%;
+  max-width: 460px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .places-container__image {
+    width: 100%;
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places-container__image {
+    width: 100%;
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .places-container__image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 100%;
+    max-width: 425px;
+    max-height: 425px;
+  }
+}

@@ -1,0 +1,22 @@
+.places-container__paragraph {
+  margin: 0;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 768px) {
+  .places-container__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .places-container__paragraph {
+    margin-left: 16px;
+    margin-right: 16px;
+    text-align: left;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,21 @@
+.footer_margin_bottom {
+  margin: 0 auto 1.9%;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer_margin_bottom {
+    margin: 0 auto 2.34%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_margin_bottom {
+    margin: 0 auto 3.125%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer_margin_bottom {
+    margin: 0 auto 7.5% 5%;
+  }
+}

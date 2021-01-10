@@ -1,0 +1,13 @@
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: linear;
+  transition-delay: 0ms;
+}
+
+.link:hover {
+  opacity: 0.4;
+}
+
