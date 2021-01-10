@@ -1,7 +1,7 @@
-@import url(/vendor/normalize.css);
+@import url(../vendor/normalize.css);
 
 /* импорт page */
-@import url(/blocks/page/page.css);
+@import url(../blocks/page/page.css);
 @import url(../blocks/page/__section/page__section.css);
 
 /* импорт header */
