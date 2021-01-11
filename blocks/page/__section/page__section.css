@@ -4,6 +4,18 @@
 
 @media screen and (max-width: 1024px) {
   .page__section {
-    margin: 0 auto 9%;
+    margin-bottom: 9%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .page__section {
+    margin-bottom: 11.4%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page__section {
+    margin-bottom: 20%;
   }
 }

@@ -1,9 +1,12 @@
 .cover__link {
-  width: 100%;
-  height: 100%;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+    width: 100%;
+    height: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(42, 44, 47, .3);
+    position: absolute;
+    top: 0%;
+  }

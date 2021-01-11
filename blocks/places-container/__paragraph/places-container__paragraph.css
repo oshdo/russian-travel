@@ -1,8 +1,12 @@
 .places-container__paragraph {
-  margin: 0;
+  margin: 0 0 25px;
   font-style: normal;
   font-size: 18px;
   line-height: 163%;
+}
+
+.places-container__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -17,6 +21,5 @@
     margin-left: 16px;
     margin-right: 16px;
     text-align: left;
-    margin-bottom: 0;
   }
 }

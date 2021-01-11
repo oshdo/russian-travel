@@ -9,6 +9,11 @@
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
   .places-container__website {
-    display: none;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding-bottom: 0;
+    padding-left: 16px;
   }
 }
