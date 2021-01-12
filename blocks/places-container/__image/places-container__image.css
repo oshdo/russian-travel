@@ -8,14 +8,12 @@
 
 @media screen and (max-width: 1024px) {
   .places-container__image {
-    width: 100%;
     max-width: 440px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places-container__image {
-    width: 100%;
     max-width: 340px;
   }
 }
@@ -26,8 +24,6 @@
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
-    width: 100%;
     max-width: 425px;
-    max-height: 425px;
   }
 }

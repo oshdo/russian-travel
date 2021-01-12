@@ -2,6 +2,10 @@
   margin-bottom: 8.1%;
 }
 
+.places-container_margin_bottom:last-of-type {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .places-container_margin_bottom {
     margin-bottom: 8.6%;

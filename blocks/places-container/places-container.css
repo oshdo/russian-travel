@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-.places-container:last-of-type {
-  margin-bottom: 0;
-}
-
 @media screen and (max-width: 1024px) {
   .places-container {
     column-gap: 32px;
@@ -21,7 +17,6 @@
 @media screen and (max-width: 768px) {
   .places-container {
     column-gap: 28px;
-    grid-template-columns: 1fr 1fr;
   }
 }
 
